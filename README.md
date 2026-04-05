@@ -8,12 +8,5 @@ This repository contains the implementation developed for our graduation project
 - `main_lazy.py`: Lazy-constraint-based MILP formulation.
 - `heuristic_main.py`: Improvement heuristic that improves incumbent MILP solutions.
 
-## Input
-The models use `instance_expanded.xlsx` as the main input file.
-
-## Output
-The MILP models produce feasible routing and service decisions.
-The heuristic takes the incumbent solution and improves the total objective value.
-
 ## Notes
 The project is based on the IRP-PD formulation inspired by Archetti et al.
